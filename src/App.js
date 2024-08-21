@@ -6,7 +6,7 @@ function App() {
   const [title, settitle] = useState("");
   const [desc, setdesc] = useState("");
   const [mainTask, setmainTask] = useState([]);
-
+  
   const deleteHandler =(i)=>{
     let copytask = [...mainTask];
     copytask.splice(i,1)
