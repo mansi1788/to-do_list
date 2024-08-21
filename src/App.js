@@ -13,7 +13,6 @@ function App() {
     setmainTask(copytask)
 
 
-
 };
   const submitHandler = (e) => {
     e.preventDefault();
