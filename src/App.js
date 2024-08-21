@@ -1,7 +1,6 @@
 import "./App.css";
 import { useState } from "react";
 
-
 function App() {
   const [title, settitle] = useState("");
   const [desc, setdesc] = useState("");
